@@ -182,7 +182,7 @@ function circleObject(color, velocity, x, y) {
 }
 
 // the "main" code begins here
-var socket = io.connect("http://76.28.150.193:8888");
+var socket = io.connect("https://76.28.150.193:8888");
 
 var friction = 1;
 var acceleration = 1000000;
